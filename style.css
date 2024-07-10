@@ -167,6 +167,7 @@ header{
 
 .block  button{
     align-self: flex-start;
+    border-radius: 0;
 }
 
 
