@@ -398,6 +398,9 @@ header{
     
 }
 
+.input[type="button"]{
+    background-color: white;
+}
 
 
 /* footer  */
