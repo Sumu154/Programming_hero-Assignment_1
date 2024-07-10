@@ -42,6 +42,21 @@ body{
     opacity: .7;
 }
 
+.section-title{
+    color: #0D1321;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.anchor{
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    }
+
 /* header */
 header{
     display: flex;
@@ -101,3 +116,64 @@ header{
     text-align: center;
     width: 60%;
 }
+
+
+/* section-one */
+.section-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.section-one > div{
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    padding: 50px 0;
+}
+
+.section-one > div > p{
+    text-align: center;
+    width: 75%;
+}
+    /* block 3 tar jonne */
+.block{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+
+    width: 75%;
+    margin-top: 20px;
+}
+
+.block > div{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 60px 20px 20px;
+}
+
+.block  button{
+    align-self: flex-start;
+}
+
+
+.text-part-title{
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+}
+
