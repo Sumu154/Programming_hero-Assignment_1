@@ -55,7 +55,7 @@ body{
     font-size: 16px;
     font-weight: 700;
     text-decoration-line: underline;
-    }
+}
 
 /* header */
 header{
@@ -285,5 +285,106 @@ header{
 
 /* section four */
 .section-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.section-four > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    padding: 30px 0;
+}
+
+.section-four > div > p{
+    text-align: center;
+    width: 75%;
+}
+
+.next{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.next-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.next-part{
+    display: flex;
+    gap: 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    padding: 30px;
+}
+
+.next-part > img{
+    height: 120px;
+    width: 110px;
+}
+
+
+/* section five   */
+.section-five{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.section-five > div{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    padding: 60px 0;
+}
+
+.section-five  h4{
+    color: #FFF;
+}
+.section-five p{
+    color: white;
+    opacity: .7;
+
+    text-align: center;
+    width: 55%;
+}
+
+.input{
+    display: flex;
+    gap: 15px;
+}
+
+.input > textarea{
+    background-color: green;
+    color: rgba(13, 19, 33, 0.40);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+
+    box-sizing: border-box;
+    padding: 10px;
     
 }
+
+
+
+/* footer  */
