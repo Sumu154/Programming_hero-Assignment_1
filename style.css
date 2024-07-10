@@ -346,13 +346,20 @@ header{
 }
 
 .section-five > div{
-    background-color: red;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), 
+                 url('assets/images/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
     display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
     align-items: center;
-
+    
     width: 90%;
     padding: 60px 0;
 }
@@ -374,8 +381,8 @@ header{
 }
 
 .input > textarea{
-    background-color: green;
     color: rgba(13, 19, 33, 0.40);
+    border-radius: 8px;
     font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 400;
@@ -388,3 +395,32 @@ header{
 
 
 /* footer  */
+.footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.footer > div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer > p{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
