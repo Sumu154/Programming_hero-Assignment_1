@@ -423,7 +423,7 @@ header{
     align-items: center;
 }
 
-.footer > p{
+.footer > div > p{
     color: #0D1321;
     font-size: 20px;
     font-weight: 600;
