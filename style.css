@@ -20,6 +20,7 @@ body{
 
     padding: 18px 35px;
 
+
 }
 
 .btn-second{
@@ -115,6 +116,10 @@ header{
 .banner-content p{
     text-align: center;
     width: 60%;
+}
+
+.banner-content a{
+    text-decoration: none;
 }
 
 
